@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio of a Frontend Developer specializing in semantic HTML, web accessibility, and SEO optimization.">
+    <title>Home | Professional Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <a href="#main-content" class="sr-only">Skip to main content</a>
+
+    <header>
+        <h1>Gauri Gundawar</h1>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="edu2.html">Edu & skills</a></li>
+                <li><a href="project2.html">Projects</a></li>
+                <li><a href="contact2.html">Contact</a></li>
+                <li><button class="theme-toggle-btn" id="themeBtn">Dark Mode</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content" class="grid-container">
+        <section class="content-box about-card" aria-labelledby="about-heading">
+            <h2 id="about-heading">About Me</h2>
+            <p>Welcome to my portfolio. I build web applications with a strict focus on modern semantic HTML5 standards and WCAG accessibility guidelines.</p>
+        </section>
+
+        <section class="content-box skills-sidebar" aria-labelledby="skills-heading">
+            <h2 id="skills-heading">Core Specializations</h2>
+            <article style="border:none; padding:0; box-shadow:none; margin-bottom:1rem;">
+                <h3>Web Accessibility (a11y)</h3>
+                <p>Ensuring digital products are fully usable using semantic markers and ARIA guidelines.</p>
+            </article>
+            <article style="border:none; padding:0; box-shadow:none; margin-bottom:1rem;">
+                <h3>Search Engine Optimization (SEO)</h3>
+                <p>Building crawlable semantic skeletons and configuring metadata.</p>
+            </article>
+            <article style="border:none; padding:0; box-shadow:none;">
+                <h3>C++ Programming</h3>
+                <p>Proficient in writing highly optimized C++ code and designing algorithmic strategies.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 <b>Gauri Gundawar</b>. All rights reserved.</p>
+    </footer>
+
+    <script src="theme.js"></script>
+</body>
+</html>
